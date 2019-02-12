@@ -1,0 +1,258 @@
+/* Start Mian Rulze*/
+*{
+    font-family: 'Montserrat', sans-serif;
+    
+    line-height: 1.7;
+    font-weight: 500;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+
+
+body{
+    
+    overflow-x: hidden;
+}
+
+header{
+    background-image: url(../images/bg-parallax.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    overflow: hidden
+    
+}
+nav{
+    overflow: hidden;
+}
+
+.cust-h{
+    font-size: 48px;
+}
+
+.cust-p{
+   font-size: 22px; 
+}
+
+hr{
+    background-color: #f9461d !important;
+    width: 30px;
+    height: 2px;
+}
+
+
+.button123{
+        background-color: #f9461d !important;
+        color:white;
+        padding: 12px 15px;
+        border:none;
+    
+}
+
+
+    .darker{
+        width: 100%;
+        
+        background-color:rgba(0,0,0,0.5);
+    }
+
+/*end the mian rulze*/
+
+
+/*Start header*/
+
+header {
+    color: white;
+    font-weight: 800;
+}
+
+header button{
+        background-color: #f9461d !important;
+        color:white;
+        padding: 12px 15px;
+        border:none;
+}
+
+/*end header*/
+
+/*Start main*/
+
+
+/* Start SERVICES*/
+
+.SERVICES .our-services h2 {
+    font-weight: 900;
+    font-size:45px;
+}
+
+.ser-img{
+    padding: 30px 0;
+}
+
+.ser-img i {
+    padding: 20px;
+    border:1px solid #f9461d;
+    border-radius: 50%;
+    color:#f9461d;
+    font-size: 30px;
+    transition: all 0.5s ;
+    transform: translateY(0 )
+}
+
+.ser-img i:hover{
+    background-color:#f9461d;
+    color:white;
+    box-shadow: 0 50px 60px  rgba(0,0,0,0.08    );
+    transform:translateY(-10px);
+}
+
+
+.SERVICES .our-services 
+p{
+    font-size:25px;
+}
+
+/*End SERVICES*/
+
+
+/*Start gallery*/
+
+.gallery .img-holder{
+    overflow: hidden;
+    background-color: green;
+    position: relative;
+}
+
+.gallery .img-holder img{
+    transition: all 0.5s }
+
+.gallery .img-holder:hover img{
+    transform: scale(1.2)
+}
+
+
+ .darker1{
+        width: 100%;
+        height: 100%;
+        z-index: 500;
+        background-color:rgba(0,0,0,0.5);
+     position: absolute;
+     opacity: 0;
+     color:white;
+     font-weight: 700;
+     font-size: 22px;
+     transition: all 0.5s;  
+    }
+
+.gallery .img-holder:hover  .darker1{
+    opacity: 1;
+}
+
+/*End gallery*/
+
+
+/* start meet-team*/
+
+.team .img-holder{
+    overflow: hidden;
+    background-color: green;
+    position: relative;
+}
+
+.team .img-holder img{
+    transition: all 0.5s }
+
+.team .img-holder:hover img{
+    transform: scale(1.2)
+}
+
+
+ .darker1{
+        width: 100%;
+        height: 100%;
+        z-index: 500;
+        background-color:rgba(0,0,0,0.5);
+     position: absolute;
+     opacity: 0;
+     color:white;
+     font-weight: 700;
+     font-size: 22px;
+     transition: all 0.5s;  
+    }
+
+.team .img-holder:hover  .darker1{
+    opacity: 1;
+}
+
+
+/*end meet team*/
+
+.reson i {
+    background-color:  #f9461d ;
+    padding: 16px 14px;
+    color:white;
+    border-radius:7%;
+}
+
+
+.but1{
+    background-color:#f9461d !important;
+}
+
+.but1op{
+    opacity: 0.7;
+}
+
+.imo{
+    width:10%
+}
+
+/*start toutch */
+.TOUCH{
+    background-image: url(../images/bg-contact.jpg);
+    background-size: cover;
+    min-height:700px;
+    color:white;
+    
+}
+
+
+
+
+
+.TOUCH .TOUCH-right input{
+    padding:2% 30%;
+    border:none ;
+    border-radius:2% ;
+
+    
+}
+
+.TOUCH .TOUCH-right textarea{
+    padding:5% 32%;
+    border:none ;
+    border-radius:2% ;
+}
+
+/*end toutch*/
+
+/*Start footer*/
+
+footer .footer-right i{
+    font-size: 150%;
+    padding-top: 15px;
+    margin-left:7%;
+}
+
+footer .footer-left{
+    opacity: 0.5;
+    
+}
+
+/*End footer*/
+
+
+
+/*end main*/
